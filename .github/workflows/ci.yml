@@ -20,4 +20,6 @@ jobs:
        run: | 
          npm version
          npm install
+         pwd
+         ls -al
          npm run test --if-present
