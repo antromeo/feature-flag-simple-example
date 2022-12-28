@@ -16,14 +16,13 @@ jobs:
        run: |
          echo "the platform is ${{ env.platform }}"
          echo "the region is ${{ env.region }}"
+     - name: pwd
+       run: | 
+         pwd
+     - name: ls
+       run: | 
+         ls -al
      - name: run 
        run: | 
-         npm version
-         echo "-----"
          npm install
-         echo "-----"
-         pwd
-         echo "-----"
-         ls -al
-         echo "-----"
          npm run test --if-present
