@@ -19,7 +19,11 @@ jobs:
      - name: run 
        run: | 
          npm version
+         echo "-----"
          npm install
+         echo "-----"
          pwd
+         echo "-----"
          ls -al
+         echo "-----"
          npm run test --if-present
