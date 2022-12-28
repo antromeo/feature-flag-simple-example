@@ -12,6 +12,8 @@ jobs:
       platform: AWS
       region: eu-west-1
     steps:
+     - uses: actions/checkout@v2
+     - uses: actions/setup-node@v2
      - name: Display env variables
        run: |
          echo "the platform is ${{ env.platform }}"
