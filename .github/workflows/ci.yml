@@ -18,4 +18,6 @@ jobs:
          echo "the region is ${{ env.region }}"
      - name: run 
        run: | 
+         npm version
+         npm install
          npm test 

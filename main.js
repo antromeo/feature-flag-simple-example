@@ -1,2 +1,2 @@
 console.log("Hello")
-console.log(`env are ${process.env}`)
+console.log(`env are ${JSON.stringify(process.env)}`)
