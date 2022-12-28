@@ -16,3 +16,6 @@ jobs:
        run: |
          echo "the platform is ${{ env.platform }}"
          echo "the region is ${{ env.region }}"
+     - name: run 
+       run: | 
+         npm test 

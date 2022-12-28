@@ -1,0 +1,19 @@
+{
+  "name": "onlytest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antromeo/onlytest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antromeo/onlytest/issues"
+  },
+  "homepage": "https://github.com/antromeo/onlytest#readme"
+}
