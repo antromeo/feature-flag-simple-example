@@ -11,7 +11,8 @@ jobs:
     env: 
       platform: AWS
       region: eu-west-1
-      secret: ${{ secrets.SECRETNAME }} 
+      feature1: ${{ secrets.feature1 }} 
+      feature2: ${{ secrets.feature2 }} 
     steps:
      - uses: actions/checkout@v2
      - uses: actions/setup-node@v2
